@@ -22,7 +22,7 @@ func main() {
 
 	plugin.Serve(&plugin.ServeOpts{
 		Debug:        debug,
-		ProviderAddr: "registry.terraform.io/e-breuninger/netbox",
+		ProviderAddr: "registry.terraform.io/afichman-netbox-terraform/netbox",
 		ProviderFunc: func() *schema.Provider {
 			return netbox.Provider()
 		},

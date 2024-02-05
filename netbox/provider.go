@@ -151,6 +151,7 @@ func Provider() *schema.Provider {
 			"netbox_contact":           dataSourceNetboxContact(),
 			"netbox_contact_role":      dataSourceNetboxContactRole(),
 			"netbox_contact_group":     dataSourceNetboxContactGroup(),
+			"netbox_manufacturer":      dataSourceNetboxManufacturer(),
 			"netbox_tenant":            dataSourceNetboxTenant(),
 			"netbox_tenants":           dataSourceNetboxTenants(),
 			"netbox_tenant_group":      dataSourceNetboxTenantGroup(),
